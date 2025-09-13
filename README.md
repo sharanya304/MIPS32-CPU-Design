@@ -12,11 +12,9 @@ This project serves as both an academic exploration of computer architecture and
 
 **Instruction Types Supported:**
 
--R-type: add, sub, and, or, xor, slt
-
--I-type: addi, andi, ori, lw, sw, beq, bne
-
--J-type: j (jump)
+- R-type: add, sub, and, or, xor, slt
+- I-type: addi, andi, ori, lw, sw, beq, bne
+- J-type: j (jump)
 
 **Modules:**
 
