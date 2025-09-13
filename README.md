@@ -20,7 +20,7 @@ This project serves as both an academic exploration of computer architecture and
 
 - ALU: Arithmetic & logical operations, with flag outputs (Zero, Negative, Overflow, Carry).
 - Decoder: Converts opcode/function fields into control signals.
--Register File: 32 general-purpose registers (32-bit each), with 2 read ports and 1 write port.
--Control Unit: FSM-based, manages instruction flow and signal generation.
--Memory: Instruction and data memory modules.
--Datapath Integration: Combines all modules into a single-cycle CPU.
+- Register File: 32 general-purpose registers (32-bit each), with 2 read ports and 1 write port.
+- Control Unit: FSM-based, manages instruction flow and signal generation.
+- Memory: Instruction and data memory modules.
+- Datapath Integration: Combines all modules into a single-cycle CPU.
