@@ -7,9 +7,10 @@ This project implements a 32-bit RISC CPU in Verilog HDL, based on a simplified 
 This project serves as both an academic exploration of computer architecture and a hands-on exercise in VLSI/HDL design methodology.
 
 **Features**
-Architecture: 32-bit RISC, MIPS subset
 
-Instruction Types Supported:
+**Architecture**: 32-bit RISC, MIPS subset
+
+**Instruction Types Supported:**
 
 R-type: add, sub, and, or, xor, slt
 
@@ -17,15 +18,12 @@ I-type: addi, andi, ori, lw, sw, beq, bne
 
 J-type: j (jump)
 
-Modules:
+**Modules:**
 
-ALU: Arithmetic & logical operations, with flag outputs (Zero, Negative, Overflow, Carry).
-
-Decoder: Converts opcode/function fields into control signals.
-
-Register File: 32 general-purpose registers (32-bit each), with 2 read ports and 1 write port.
-
-Control Unit: FSM-based, manages instruction flow and signal generation.
+- ALU: Arithmetic & logical operations, with flag outputs (Zero, Negative, Overflow, Carry).
+- Decoder: Converts opcode/function fields into control signals.
+-Register File: 32 general-purpose registers (32-bit each), with 2 read ports and 1 write port.
+-Control Unit: FSM-based, manages instruction flow and signal generation.
 
 Memory: Instruction and data memory modules.
 
