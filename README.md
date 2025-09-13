@@ -12,11 +12,11 @@ This project serves as both an academic exploration of computer architecture and
 
 **Instruction Types Supported:**
 
-R-type: add, sub, and, or, xor, slt
+-R-type: add, sub, and, or, xor, slt
 
-I-type: addi, andi, ori, lw, sw, beq, bne
+-I-type: addi, andi, ori, lw, sw, beq, bne
 
-J-type: j (jump)
+-J-type: j (jump)
 
 **Modules:**
 
@@ -24,7 +24,5 @@ J-type: j (jump)
 - Decoder: Converts opcode/function fields into control signals.
 -Register File: 32 general-purpose registers (32-bit each), with 2 read ports and 1 write port.
 -Control Unit: FSM-based, manages instruction flow and signal generation.
-
-Memory: Instruction and data memory modules.
-
-Datapath Integration: Combines all modules into a single-cycle CPU.
+-Memory: Instruction and data memory modules.
+-Datapath Integration: Combines all modules into a single-cycle CPU.
